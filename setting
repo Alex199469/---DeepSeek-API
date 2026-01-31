@@ -1,0 +1,15 @@
+# Создайте файл .env на основе шаблона
+cp .env.example .env
+
+#bash
+pip install -r requirements.txt
+#bash
+python bot.py
+
+#Отредактируйте файл .env:
+#env
+BOT_TOKEN=ваш_токен_бота
+DEEPSEEK_API_KEY=ваш_ключ_deepseek
+ADMIN_IDS=123456789,987654321
+
+#
